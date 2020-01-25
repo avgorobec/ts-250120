@@ -1,11 +1,46 @@
-import { speakLikeSloth1 } from "./module-1";
-import { speakLikeSloth2 } from "./module-2";
-import { speakLikeSloth3 } from "./module-3";
-import { speakLikeSloth4 } from "./module-4";
-import { speakLikeSloth5 } from "./module-5";
+// interface UserAccount {
+//     firstName: string;
+//     age: number;
+// }
 
-speakLikeSloth1(['hi', 'all', 'TS', 'is', 'awesome']);
-speakLikeSloth2(['hi', 'all', 'TS', 'is', 'awesome']);
-speakLikeSloth3(['hi', 'all', 'TS', 'is', 'awesome']);
-speakLikeSloth4(['hi', 'all', 'TS', 'is', 'awesome']);
-speakLikeSloth5(['hi', 'all', 'TS', 'is', 'awesome']);
+// let p1 = UserAccount
+//
+// let userAccount = {
+//     firstName: 'Ihor',
+//     age: 33
+// }
+//
+// let u1: Response = 1;
+//
+// class UserAccount {
+//     firstName!: string;
+//     age!: number;
+// }
+// //
+// let u2 = new UserAccount();
+
+
+let isDone: boolean = true;
+
+let nan: number = NaN;
+let decimal: number = 6;
+let binar: number = 0b0101;
+
+let color: string = 'blue';
+
+let nill: null = null;
+let und: undefined = undefined;
+
+let bigInt: bigint = 4n;
+
+
+const key1 = Symbol('key1');
+let key2: symbol = Symbol('key2');
+let key3: symbol = Symbol('key3');
+
+let strictObj = {
+    [key1]: 'value 1',
+    [key2]: 'value 2',
+}
+
+let val1 = strictObj[key2];
